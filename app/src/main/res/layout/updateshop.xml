@@ -1,0 +1,453 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:background="#ffffff"
+	android:layout_height="match_parent">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<FrameLayout
+			android:id="@+id/toolbar_container"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="@color/PrimaryColor"
+				app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+				<!--	<ImageView
+                        android:id="@+id/save"
+                        android:layout_width="40dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/icn_done"
+                        android:visibility="gone"
+                        android:layout_gravity="end"
+
+                        />-->
+			</android.support.v7.widget.Toolbar>
+		</FrameLayout>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<android.support.v4.widget.NestedScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#ffffff"
+		android:layout_marginBottom="60dp"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			>
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				>
+
+				<TableLayout
+					android:id="@+id/gdfgdf"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+
+					>
+					<TableRow
+						android:id="@+id/gwgws"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+
+
+
+						>
+						<LinearLayout
+							android:id="@+id/dsgadfa"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:gravity="center"
+							android:layout_weight="1"
+
+							>
+
+						</LinearLayout>
+
+					</TableRow>
+
+
+
+
+
+
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:layout_gravity="center"
+						android:gravity="center"
+						android:layout_marginTop="8dp"
+
+						>
+						<LinearLayout
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:layout_weight="1"
+
+							>
+
+							<TextView
+								android:id="@+id/tv_name"
+								android:layout_width="match_parent"
+								android:layout_height="138dp"
+
+
+								android:layout_gravity="center"
+								android:layout_weight="1"
+								android:gravity="center"
+								android:text="Add Your Shop Details !"
+								android:textColor="#000000"
+								android:textSize="24dp"
+								android:textStyle="bold"></TextView>
+
+
+
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:layout_marginTop="7dp"
+
+
+
+						>
+						<LinearLayout
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_weight="1"
+
+							>
+
+
+
+							<TextView
+								android:id="@+id/tv_address"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+
+								android:text=""
+								android:textColor="#000000"
+								android:textSize="10dp"
+								android:layout_gravity="center"
+								android:gravity="center"
+								android:layout_weight="1"
+								android:lines="1"
+								>
+							</TextView>
+
+
+						</LinearLayout>
+
+					</TableRow>
+
+
+					<TextView
+						android:id="@+id/asfs"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:text="Shope Name"
+						android:layout_marginLeft="13dp"
+						android:textColor="#000000"
+						android:textSize="13dp"
+						android:textStyle="bold">
+
+					</TextView>
+
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						>
+
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:orientation="vertical"
+							android:background="@drawable/whitecurvebg"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							>
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:orientation="horizontal"
+								android:layout_gravity="center"
+								android:gravity="center"
+
+
+								>
+
+								<EditText
+									android:id="@+id/et_shopname"
+									android:layout_width="match_parent"
+									android:layout_height="40dp"
+									android:hint="Enter Shop Name"
+									android:background="@drawable/lineeditbox"
+									android:layout_weight="1"
+									android:textColor="#000000"
+									android:textSize="15dp"
+									android:paddingLeft="10dp"
+									/>
+
+							</LinearLayout>
+							<requestFocus />
+
+						</LinearLayout>
+
+					</TableRow>
+
+					<TextView
+						android:id="@+id/adda"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:text="GST Number"
+						android:layout_marginLeft="13dp"
+						android:textColor="#000000"
+						android:textSize="13dp"
+						android:textStyle="bold">
+
+					</TextView>
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						>
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:orientation="vertical"
+							android:background="@drawable/whitecurvebg"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							>
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:orientation="horizontal"
+								android:layout_gravity="center"
+								android:gravity="center"
+
+
+								>
+
+								<EditText
+									android:id="@+id/et_gstno"
+									android:layout_width="match_parent"
+									android:layout_height="40dp"
+									android:hint="Enter Gst Number"
+									android:textColor="#000000"
+									android:layout_weight="1"
+									android:background="@drawable/lineeditbox"
+									android:textSize="15dp"
+									android:paddingLeft="10dp"
+									/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</TableRow>
+
+					<TextView
+						android:id="@+id/SSS"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:text="Phone Nmuber"
+						android:layout_marginLeft="13dp"
+						android:textColor="#000000"
+						android:textSize="13dp"
+						android:textStyle="bold">
+
+					</TextView>
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						>
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:orientation="vertical"
+							android:background="@drawable/whitecurvebg"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							>
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:orientation="horizontal"
+								android:layout_gravity="center"
+								android:gravity="center"
+
+
+								>
+
+								<EditText
+									android:id="@+id/et_phonenumber"
+									android:layout_width="match_parent"
+									android:layout_height="40dp"
+									android:hint="Enter Phone Nmuber"
+									android:background="@drawable/lineeditbox"
+									android:layout_weight="1"
+									android:inputType="number"
+									android:textColor="#000000"
+									android:textSize="15dp"
+									android:paddingLeft="10dp"
+									/>
+
+							</LinearLayout>
+
+
+						</LinearLayout>
+
+					</TableRow>
+					<TextView
+						android:id="@+id/gfd"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:text="Shop Address"
+						android:layout_marginLeft="13dp"
+						android:textColor="#000000"
+						android:textSize="13dp"
+						android:textStyle="bold">
+
+					</TextView>
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						>
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:orientation="vertical"
+							android:background="@drawable/whitecurvebg"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							>
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:orientation="horizontal"
+								android:layout_gravity="center"
+								android:gravity="center"
+
+
+								>
+
+								<EditText
+									android:id="@+id/et_aria"
+									android:layout_width="match_parent"
+									android:layout_height="40dp"
+									android:hint="Enter Address"
+									android:textColor="#000000"
+									android:layout_weight="1"
+									android:background="@drawable/lineeditbox"
+									android:textSize="15dp"
+									android:paddingLeft="10dp"
+									/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</TableRow>
+
+					<TableRow
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="30dp"
+						>
+
+
+					</TableRow>
+				</TableLayout>
+
+
+
+
+
+			</RelativeLayout>
+		</LinearLayout>
+	</android.support.v4.widget.NestedScrollView>
+
+	<LinearLayout
+		android:id="@+id/ll_updateshp"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:orientation="horizontal"
+		android:background="@color/PrimaryDarkColor"
+		android:layout_gravity="bottom"
+		android:layout_alignParentBottom="true"
+
+		>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="8dp"
+
+
+			android:layout_alignParentBottom="true"
+
+			>
+			<TextView
+				android:id="@+id/addshope"
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:textSize="20dp"
+				android:layout_marginRight="10dp"
+				android:text="Update"
+				android:textColor="#ffffff"
+
+				android:layout_weight="1"
+
+				android:layout_gravity="center"
+				android:gravity="center"
+				/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+    

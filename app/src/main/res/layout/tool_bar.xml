@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    android:background="@color/PrimaryColor"
+    android:elevation="2dp"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+  <LinearLayout   
+    android:id="@+id/mototraceheading"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_weight="1.4" 
+     android:layout_marginLeft="130dp"
+   > 
+           <ImageView 
+              android:id="@+id/fghfghfg" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+           android:src="@drawable/logo_inside"
+            />
+           </LinearLayout>
+</android.support.v7.widget.Toolbar>

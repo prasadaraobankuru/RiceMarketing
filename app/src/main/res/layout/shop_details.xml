@@ -1,0 +1,446 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<FrameLayout
+			android:id="@+id/toolbar_container"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="@color/PrimaryColor"
+				app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+				<!--	<ImageView
+                        android:id="@+id/save"
+                        android:layout_width="40dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/icn_done"
+                        android:visibility="gone"
+                        android:layout_gravity="end"
+
+                        />-->
+			</android.support.v7.widget.Toolbar>
+		</FrameLayout>
+
+	</android.support.design.widget.AppBarLayout>
+
+
+     <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+                android:layout_marginBottom="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout 
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+   
+    >
+    
+      <TableLayout 
+    android:id="@+id/gdfgdf"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+   >  
+    <TableRow
+    android:id="@+id/gwgws"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+ 
+    
+    > 
+    <LinearLayout
+    android:id="@+id/dsgadfa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_weight="1"
+
+    >
+
+    </LinearLayout>
+    
+    </TableRow> 
+    
+    
+ 
+    
+    
+    
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:layout_marginTop="8dp"
+    
+    >
+     <LinearLayout
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_weight="1"
+   
+    >
+
+		 <TextView
+			 android:id="@+id/tv_name"
+			 android:layout_width="match_parent"
+			 android:layout_height="138dp"
+
+
+			 android:layout_gravity="center"
+			 android:layout_weight="1"
+			 android:gravity="center"
+			 android:text="Shop Details !"
+			 android:textColor="#000000"
+			 android:textSize="27dp"
+			 android:textStyle="bold"></TextView>
+                
+     
+                
+    </LinearLayout>
+    </TableRow>
+    
+     <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"   
+    android:layout_marginTop="7dp"
+       
+     
+
+    >
+       <LinearLayout
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_weight="1"  
+     
+    >
+
+           
+
+     <TextView
+         android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   
+                     android:text=""
+                     android:textColor="#000000"
+                     android:textSize="10dp" 
+                       android:layout_gravity="center"
+                         android:gravity="center"
+                     android:layout_weight="1"
+                     android:lines="1"
+                     >
+                </TextView>
+                
+       
+        </LinearLayout>
+        
+    </TableRow>
+    
+      
+     
+    
+      <TableRow 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_marginTop="10dp"
+	  >
+	  <LinearLayout 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_weight="1"
+	 android:orientation="vertical"
+
+	 android:layout_marginLeft="10dp"
+	 android:layout_marginRight="10dp"
+	  >
+	 <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:orientation="horizontal"
+  android:layout_gravity="center"
+  android:gravity="center"
+
+ 
+   >
+
+		 <TextView
+			 android:id="@+id/dD"
+			 android:layout_width="match_parent"
+			 android:layout_height="40dp"
+			 android:layout_weight="1"
+			 android:paddingLeft="10dp"
+			 android:text="Shop Name     :"
+			 android:textColor="#000000"
+			 android:textStyle="bold"
+			 android:textSize="15dp" />
+
+		 <TextView
+			 android:id="@+id/tv_shopname"
+			 android:layout_width="match_parent"
+			 android:layout_height="40dp"
+			 android:text="Shop Name"
+			 android:layout_weight="1"
+             android:textColor="@color/PrimaryDarkColor"
+			 android:textSize="15dp"
+			 android:paddingLeft="10dp"
+			 />
+    
+   </LinearLayout>
+
+	  
+       </LinearLayout>
+    
+    </TableRow>
+    
+       
+      <TableRow 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_marginTop="10dp"
+	  >
+	  <LinearLayout 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_weight="1"
+	 android:orientation="vertical"
+
+	 android:layout_marginLeft="10dp"
+	 android:layout_marginRight="10dp"
+	  >
+	 <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:orientation="horizontal"
+  android:layout_gravity="center"
+  android:gravity="center"
+
+ 
+   >
+   
+   <TextView
+     android:id="@+id/et_gstno"
+     android:layout_width="match_parent"
+     android:layout_height="40dp"
+     android:text="GST Number     :"
+	   android:textStyle="bold"
+     android:layout_weight="1"
+	   android:textColor="#000000"
+     android:textSize="15dp"
+      android:paddingLeft="10dp"
+  />
+		 <TextView
+			 android:id="@+id/tv_gstno"
+			 android:layout_width="match_parent"
+			 android:layout_height="40dp"
+			 android:text="Gst Number"
+			 android:textColor="@color/PrimaryDarkColor"
+			 android:layout_weight="1"
+
+			 android:textSize="15dp"
+			 android:paddingLeft="10dp"
+			 />
+   </LinearLayout>
+	
+       </LinearLayout>
+    
+    </TableRow>
+    
+       
+      <TableRow 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_marginTop="10dp"
+	  >
+	  <LinearLayout 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_weight="1"
+	 android:orientation="vertical"
+
+	 android:layout_marginLeft="10dp"
+	 android:layout_marginRight="10dp"
+	  >
+	 <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:orientation="horizontal"
+  android:layout_gravity="center"
+  android:gravity="center"
+
+ 
+   >
+   
+   <TextView
+     android:id="@+id/adad"
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+ android:text="Phone Nmuber :"
+	   android:textStyle="bold"
+ android:layout_weight="1"
+	   android:textColor="#000000"
+ android:textSize="15dp"
+ android:paddingLeft="10dp"
+  />
+		 <TextView
+			 android:id="@+id/tv_phonenumber"
+			 android:layout_width="match_parent"
+			 android:layout_height="40dp"
+			 android:text="Phone Nmuber"
+			 android:textColor="@color/PrimaryDarkColor"
+			 android:layout_weight="1"
+
+			 android:textSize="15dp"
+			 android:paddingLeft="10dp"
+			 />
+   </LinearLayout>
+	
+	  
+       </LinearLayout>
+    
+    </TableRow>
+    
+      <TableRow 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_marginTop="10dp"
+	  >
+	  <LinearLayout 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_weight="1"
+	 android:orientation="vertical"
+
+	 android:layout_marginLeft="10dp"
+	 android:layout_marginRight="10dp"
+	  >
+	 <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:orientation="horizontal"
+  android:layout_gravity="center"
+  android:gravity="center"
+
+ 
+   >
+   
+   <TextView
+     android:id="@+id/dSff"
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+ android:text="Shop Address    :"
+	   android:textStyle="bold"
+ android:layout_weight="1"
+	   android:textColor="#000000"
+ android:textSize="15dp"
+ android:paddingLeft="10dp"
+  />
+		 <TextView
+			 android:id="@+id/tv_aria"
+			 android:layout_width="match_parent"
+			 android:layout_height="60dp"
+			 android:textColor="@color/PrimaryDarkColor"
+			 android:layout_weight="1"
+             android:text="addresss"
+			 android:textSize="15dp"
+			 android:paddingLeft="10dp"
+			 />
+   </LinearLayout>
+	
+       </LinearLayout>
+    
+    </TableRow>
+    
+      <TableRow 
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_marginTop="30dp"
+	  >
+	  
+    
+    </TableRow>
+    </TableLayout>
+    
+
+    
+    
+    
+     </RelativeLayout>
+    </LinearLayout>
+      </android.support.v4.widget.NestedScrollView>
+  
+ <LinearLayout
+	 android:id="@+id/ll_addshope"
+  android:layout_width="match_parent"
+  android:layout_height="60dp" 
+  android:orientation="horizontal"
+   android:background="@color/PrimaryDarkColor"
+   android:layout_gravity="bottom"
+   android:layout_alignParentBottom="true" 
+   
+  >  
+  
+           <LinearLayout 
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:orientation="horizontal"
+  android:layout_marginLeft="20dp"
+  android:layout_marginRight="20dp"
+  android:layout_marginTop="8dp"
+
+ 
+   android:layout_alignParentBottom="true" 
+ 
+  >       
+    <TextView 
+     android:id="@+id/addshope"
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+ android:textSize="20dp"
+android:layout_marginRight="10dp"
+ android:text="Update Shop Details"
+ android:textColor="#ffffff"
+ 
+ android:layout_weight="1"
+
+ android:layout_gravity="center"
+ android:gravity="center"
+  />
+   
+   </LinearLayout>
+</LinearLayout>
+ 
+    
+
+  
+
+</android.support.design.widget.CoordinatorLayout>
+    
